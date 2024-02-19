@@ -1,0 +1,108 @@
+.PaiCentral{
+    width: 80%;
+    background: #fff;
+    display: grid; 
+    margin: 0 auto;
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ladoImg{
+    background: url(./favicon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 120px;
+    height: 120px;
+    margin: 20px;
+}
+.InfoDadosCompany{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.leftSide{
+    background: #8680805a;
+    height: auto;
+    border: 1px solid black;
+}
+.rigthSide{
+    background: #ccc;
+    height: 250px;
+    margin-top: 105px;
+    border: 1px solid black;
+}
+
+.barraConteiner{ 
+    padding: 5px;
+    border: 1px solid black;
+    background: #fff;
+}
+.barraConteiner h2{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.leftSide p, .rigthSide p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.rigthSide h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 5px;
+    margin: 10px;
+}
+.tabela{
+    width: 100%;
+}
+.tabela table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+.tabela td{
+    text-align: center;
+}
+.tabela td, table th{
+    border: 1px solid black;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+.fimTxt{ 
+    width: 80%; 
+    display: grid; 
+    margin: 0 auto;
+} 
+.fimTxt p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;    
+
+}
+
+
+.tabelaTest{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+.tabelaTest td{
+border: 1px solid black;
+}
+.tabelaTest p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 5px;
+    margin: 10px;
+}
+.tabelaTest td{ 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 5px;
+    margin: 10px;
+}
